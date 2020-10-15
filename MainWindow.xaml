@@ -1,0 +1,18 @@
+﻿<Window x:Class="TIMSHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TIMSHelper"
+        mc:Ignorable="d"
+        Title="TIMS Helper" Height="350" Width="600">
+    <Grid Background="#FF6D697A">
+        <Button Content="BLANK LOGIN" HorizontalAlignment="Left" Margin="50,106,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="StartTIMSSQLButton_Clicked" BorderBrush="#FF5F2B2B" Background="#FF30417E" Foreground="#FFF0EDED"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="375,266,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="ExitButton_Click" BorderBrush="#FF5F2B2B" Background="#FF30417E" Foreground="#FFF0EDED"/>
+        <Button Content="NOAH ERROR LOGGING INTO TIMS" HorizontalAlignment="Left" Margin="50,146,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="NOAHErrorButton_Clicked" BorderBrush="#FF5F2B2B" Background="#FF30417E" Foreground="#FFF0EDED"/>
+        <Button Content="NOAH MODULES\ICONS MISSING" HorizontalAlignment="Left" Margin="309,106,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="NOAHModulesMissingButton_Clicked" BorderBrush="#FF5F2B2B" Background="#FF30417E" Foreground="#FFF0EDED"/>
+        <Button Content="START\RESTART REPLICATION" HorizontalAlignment="Left" Margin="309,146,0,0" VerticalAlignment="Top" Width="200" Height="23" Click="RestartReplicationButton_Clicked" BorderBrush="#FF5F2B2B" Background="#FF30417E" Foreground="#FFF0EDED"/>
+        <Image Margin="172,10,205,228" Source="Image1.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
